@@ -1,0 +1,266 @@
+html,
+body {
+  font-family: Verdana, Helvetica;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(https://n6-img-fp.akamaized.net/free-photo/cute-flowers-on-pink-background-with-space-on-right_23-2147691006.jpg?size=338&ext=jpg);
+}
+.centerLabel {
+  margin-top: 6px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: 8px;
+}
+h1 {
+  text-align: center;
+  -webkit-animation-name: rainbow;
+          animation-name: rainbow;
+  -webkit-animation-duration: 11s;
+          animation-duration: 11s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.container {
+  font-family: "Trebuchet MS";
+  background-color: rgb(0,0,0,0.5);
+  margin: 50px;
+  width: 70vw;
+  border: 2px solid white;
+  background-color: rgb(204,153,153);
+}
+
+.title {
+  text-align: center;
+  color: white;
+  margin: 25px 6px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.fields {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 10px 0;
+}
+
+label {
+  width: 43%;
+  margin-right: 15px;
+  text-align: right;
+  color: white;
+}
+select {
+  width: 24%;
+  padding: 7px;
+}
+
+#preferences,
+textarea {
+  width: 50%;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 34%;
+  padding: 7px;
+}
+
+textarea {
+  resize: none;
+  color: black;
+}
+
+#submit {
+  font-family: "Trebuchet MS";
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  background-color: #ff4d47;
+}
+
+@media all and (max-width: 600px) {
+  label,
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+  }
+  label {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  select,
+  #preferences {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 704px) {
+  label[for="comments"],
+  textarea {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    color: #47ff60;
+  }
+  25% {
+    color: #ff4d47;
+  }
+  50% {
+    color: #ffa947;
+  }
+  75% {
+    color: #5347ff;
+  }
+  100% {
+    color: #47ff60;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    color: #47ff60;
+  }
+  25% {
+    color: #ff4d47;
+  }
+  50% {
+    color: #ffa947;
+  }
+  75% {
+    color: #5347ff;
+  }
+  100% {
+    color: #47ff60;
+  }
+}
+
+@-webkit-keyframes boxRainbow {
+  0% {
+    -webkit-box-shadow: 0 0 24px 2px #47ff60;
+            box-shadow: 0 0 24px 2px #47ff60;
+  }
+  25% {
+    -webkit-box-shadow: 0 0 24px 2px #ff4d47;
+            box-shadow: 0 0 24px 2px #ff4d47;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 24px 2px #ffa947;
+            box-shadow: 0 0 24px 2px #ffa947;
+  }
+  75% {
+    -webkit-box-shadow: 0 0 24px 2px #5347ff;
+            box-shadow: 0 0 24px 2px #5347ff;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 24px 2px #47ff60;
+            box-shadow: 0 0 24px 2px #47ff60;
+  }
+}
+
+@keyframes boxRainbow {
+  0% {
+    -webkit-box-shadow: 0 0 24px 2px #47ff60;
+            box-shadow: 0 0 24px 2px #47ff60;
+  }
+  25% {
+    -webkit-box-shadow: 0 0 24px 2px #ff4d47;
+            box-shadow: 0 0 24px 2px #ff4d47;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 24px 2px #ffa947;
+            box-shadow: 0 0 24px 2px #ffa947;
+  }
+  75% {
+    -webkit-box-shadow: 0 0 24px 2px #5347ff;
+            box-shadow: 0 0 24px 2px #5347ff;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 24px 2px #47ff60;
+            box-shadow: 0 0 24px 2px #47ff60;
+  }
+}
+
+@-webkit-keyframes bgRainbow {
+  0% {
+    background-color: #47ff60;
+  }
+  25% {
+    background-color: #ff4d47;
+  }
+  50% {
+    background-color: #ffa947;
+  }
+  75% {
+    background-color: #5347ff;
+  }
+  100% {
+    background-color: #47ff60;
+  }
+}
+
+@keyframes bgRainbow {
+  0% {
+    background-color: #47ff60;
+  }
+  25% {
+    background-color: #ff4d47;
+  }
+  50% {
+    background-color: #ffa947;
+  }
+  75% {
+    background-color: #5347ff;
+  }
+  100% {
+    background-color: #47ff60;
+  }
+}
